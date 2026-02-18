@@ -22,7 +22,7 @@ The analysis is implemented in `main.ipynb`.
 Tests whether the average duration of BiciMAD trips in March 2022 exceeds 12 minutes.
 
 - **Test:** One-sample t-test  
-- **H₀:** μ ≤ 12 minutes  
+- **H₀:** μ = 12 minutes  
 - **H₁:** μ > 12 minutes  
 
 ---
@@ -31,7 +31,7 @@ Tests whether the average duration of BiciMAD trips in March 2022 exceeds 12 min
 Compares trip duration between weekend and weekday trips.
 
 - **Test:** Two-sample t-test (independent samples)  
-- **H₀:** μ_weekend ≤ μ_weekday  
+- **H₀:** μ_weekend = μ_weekday  
 - **H₁:** μ_weekend > μ_weekday  
 
 ---
